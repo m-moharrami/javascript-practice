@@ -6,3 +6,11 @@ function equalArray(a, b) {
     }
     return true;
 }
+
+let a = [1, 2, 3, 4];
+let b = [1, 6];
+let c = [1, 2, 3, 4];
+
+console.log(equalArray(a, b));
+console.log(equalArray(a, c));
+console.log(equalArray(b, c));
